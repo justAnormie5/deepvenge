@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DeepVenge Dev Studio — Crystal Tycoon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f1724;
+      color: #e6eef6;
+    }
+    .container {
+      max-width: 980px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, tomato, #ff9a76);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #071029;
+    }
+    nav a {
+      color: #9aa4b2;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    .card {
+      background: #0b1220;
+      padding: 18px;
+      border-radius: 8px;
+      margin-bottom: 18px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 20px;
+    }
+    .features {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .feature {
+      flex: 1 1 200px;
+      background: #10182b;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: 6px;
+      background: tomato;
+      color: #071029;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .preview-frame {
+      width: 100%;
+      height: 180px;
+      border-radius: 6px;
+      background: #07203a;
+      border: 3px solid #1e2b3d;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      color: #9aa4b2;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #9aa4b2;
+      border-top: 1px solid #1e2b3d;
+      padding-top: 10px;
+      text-align: center;
+    }
+    @media (max-width: 820px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">DV</div>
+        <div>
+          <h1>DeepVenge Dev Studio</h1>
+          <small style="color:#9aa4b2;">Roblox development · Team: Crystal Tycoon</small>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="card hero">
+      <div>
+        <h2>Crystal Tycoon — A world of crystals, trade and strategy</h2>
+        <p>Crystal Tycoon is our upcoming Roblox experience where players build crystal empires from the ground up. Mine rare crystals, automate production lines, trade with other tycoons, and expand your island into an efficient, glittering empire. We’re designing deep progression, fair economy systems, and playful visuals so both casual players and hardcore tycoons can enjoy the climb.</p>
+        <div class="features" id="features">
+          <div class="feature">
+            <strong>Mine & Upgrade</strong>
+            <p>mine in caves fight off enemies and upgrade your crystal core </p>
+          </div>
+          <div class="feature">
+            <strong>Automation</strong>
+            <p>be the crystal protagonist and make a fat ton of cash</p>
+          </div>
+          <div class="feature">
+            <strong>Trade & Economy</strong>
+            <p>maybe we will add trading idk </p>
+          </div>
+        </div>
+        <a class="cta" href="#contact">Join the playtest</a>
+      </div>
+      <aside>
+        <div class="preview-frame">In Progress</div>
+        <div style="color:#9aa4b2;font-size:0.9rem;margin-top:8px;"><p>dont worry we dont update like bloxfruits</p>
+    </section>
+
+    <section class="card">
+      <h3>We’re building this because…</h3>
+      <p>we are so cool and sigma</p>
+      <h4>How to help</h4>
+      <ul>
+        <li>Follow DeepVenge on Roblox and socials for playtest announcements</li>
+        <li>Join our tester list and share feedback</li>
+        <li>Report bugs and suggest features — we read everything</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Contact & Credits</h3>
+      <p>Got ideas, want to collaborate, or found a bug? Reach out to the team via our Roblox group or DM the developers.</p>
+      <p><strong>Special thanks to VR</strong> (Head of Development) for guiding the project and driving the vision forward.</p>
+    </section>
+
+    <footer>
+      © DeepVenge Dev Studio — Website made by JustA_normie5
+    </footer>
+  </main>
+</body>
+</html>
